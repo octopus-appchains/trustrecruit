@@ -1,13 +1,13 @@
 [package]
-name = "appchain-barnacle-runtime"
-version = "0.9.18"
-description = "A fresh FRAME-based appchain runtime, ready for hacking."
-authors = ["Octopus Network <hi@oct.network>"]
-homepage = "https://oct.network/"
-edition = "2021"
+name = "trustrecruittest-runtime"
+version = "1.0.0"
+description = "NFT marketplace for resume."
+authors = ["trustrecruiter <admin@trustrecruit.io>"]
+homepage = "https://trustrecruit.io/"
+edition = "2022"
 license = "Apache-2.0"
 publish = false
-repository = "https://github.com/octopus-network/barnacle/"
+repository = "https://github.com/trustrecruit/barnacle"
 
 [package.metadata.docs.rs]
 targets = ["x86_64-unknown-linux-gnu"]

@@ -1,6 +1,6 @@
 {
-  "name": "BarnacleEVM",
-  "id": "barnacle-evm",
+  "name": "TrustrecruitTest",
+  "id": "trustrecruit",
   "chainType": "Live",
   "bootNodes": [
     "/dns/bootnode-v1-0.barnacle-evm.testnet.octopus.network/tcp/30333/ws/p2p/12D3KooWLsbs3TJtzwmyfk1U2Ss8QugRUU7ZbMwau55j5GoixMz7",
@@ -9,11 +9,11 @@
     "/dns/bootnode-v1-3.barnacle-evm.testnet.octopus.network/tcp/30333/ws/p2p/12D3KooWGLd26WKNPQMTtU251zx6yDmZXZMhoxLk7K2prpNotCQR"
   ],
   "telemetryEndpoints": null,
-  "protocolId": "bare",
+  "protocolId": "trecruit",
   "properties": {
     "ss58Format": 42,
     "tokenDecimals": 18,
-    "tokenSymbol": "BARE"
+    "tokenSymbol": "TRTT"
   },
   "forkBlocks": null,
   "badBlocks": null,

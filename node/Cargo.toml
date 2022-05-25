@@ -1,20 +1,20 @@
 [package]
-name = "appchain-barnacle"
-version = "0.9.18"
-description = "A minimal template for octopus appchain."
-authors = ["Octopus Network <hi@oct.network>"]
-homepage = "https://oct.network/"
-edition = "2021"
+name = "appchain-trustrecruit"
+version = "1.0.0"
+description = "NFT marketplace for resume."
+authors = ["TrustRecruit <admin@trustrecruit.io>"]
+homepage = "https://trustrecruit.io/"
+edition = "2022"
 license = "Apache-2.0"
 publish = false
-repository = "https://github.com/octopus-network/barnacle/"
+repository = "https://github.com/trustrecruit/barnacle"
 build = "build.rs"
 
 [package.metadata.docs.rs]
 targets = ["x86_64-unknown-linux-gnu"]
 
 [[bin]]
-name = "appchain-barnacle"
+name = "appchain-trustrecruit"
 
 [dependencies]
 clap = { version = "3.0", features = ["derive"] }
@@ -87,11 +87,11 @@ frame-benchmarking = { version = "4.0.0-dev", git = "https://github.com/parityte
 frame-benchmarking-cli = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.18" }
 
 # Local Dependencies
-appchain-barnacle-runtime = { version = "0.9.18", path = "../runtime" }
+trustrecruittest-runtime = { version = "0.9.18", path = "../runtime" }
 
 [build-dependencies]
 substrate-build-script-utils = { version = "3.0.0", git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.18" }
 
 [features]
 default = []
-runtime-benchmarks = ["appchain-barnacle-runtime/runtime-benchmarks"]
+runtime-benchmarks = ["trustrecruittest-runtime/runtime-benchmarks"]
