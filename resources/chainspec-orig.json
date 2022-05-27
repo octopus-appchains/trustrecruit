@@ -13,7 +13,7 @@
   "properties": {
     "ss58Format": 42,
     "tokenDecimals": 18,
-    "tokenSymbol": "TRTT"
+    "tokenSymbol": "TRT"
   },
   "forkBlocks": null,
   "badBlocks": null,

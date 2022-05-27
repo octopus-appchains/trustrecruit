@@ -1,13 +1,13 @@
 [package]
 name = "appchain-trustrecruit"
-version = "1.0.0"
+version = "0.9.18"
 description = "NFT marketplace for resume."
 authors = ["TrustRecruit <admin@trustrecruit.io>"]
 homepage = "https://trustrecruit.io/"
-edition = "2022"
+edition = "2021"
 license = "Apache-2.0"
 publish = false
-repository = "https://github.com/trustrecruit/barnacle"
+repository = "https://github.com/trustrecruit/trustrecruittest"
 build = "build.rs"
 
 [package.metadata.docs.rs]

@@ -7,9 +7,9 @@ require('dotenv').config();
 module.exports = {
   solidity: "0.8.4",
   networks: {
-    barnacle: {
+    trustrecruit: {
       url: process.env.BARNACLE_RPC_URL,
-      chainId: 1008,
+      chainId: 1025,
       accounts: [process.env.BARNACLE_DEPLOYER_PRIVATE_KEY, process.env.BARNACLE_ACCOUNT_PRIVATE_KEY]
     },
   }

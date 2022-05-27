@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx hardhat test",
-    "deploy:barnacle": "npx hardhat run --network barnacle .maintain/deployment.js"
+    "deploy:trustrecruit": "npx hardhat run --network trustrecruit .maintain/deployment.js"
   },
   "keywords": [
     "ethereum",
