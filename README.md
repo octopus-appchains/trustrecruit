@@ -22,7 +22,7 @@ Please go to https://app.trustrecruit.io/
 ### Build
   cargo build
 ### Run
-  ./target/debug/uniqueone-appchain \
+  ./target/debug/trustrecruit-appchain \
   --base-path .local \
   --dev \
   --alice \
