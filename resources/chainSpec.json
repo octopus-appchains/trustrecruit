@@ -56,7 +56,7 @@
       },
       "transactionPayment": null,
       "octopusAppchain": {
-        "anchorContract": "octopus-anchor.testnet",
+        "anchorContract": "trustrecruit.registry.test_oct.testnet",
         "validators": [
           [
             "5GuiAsvrLkjJvSppNgpjhyHPNGmPNZ8Ca1NabTw44GvzWtvc",
