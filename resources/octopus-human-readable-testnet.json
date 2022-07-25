@@ -1,6 +1,6 @@
 {
-  "name": "TrustrecruitTest",
-  "id": "trustrecruit",
+  "name": "Trustrecruit Testnet",
+  "id": "Trustrecruit_testnet",
   "chainType": "Live",
   "bootNodes": [
     "/dns/bootnode-v1-0.trustrecruit.testnet.octopus.network/tcp/30333/ws/p2p/12D3KooWE9SchUA8mB8mKAjY4w1fQSKeqZNy1Weizx4z2nXiT528",
@@ -9,12 +9,13 @@
     "/dns/bootnode-v1-3.trustrecruit.testnet.octopus.network/tcp/30333/ws/p2p/12D3KooWNtejutZrkf1o1ZtpPL8paTeTfuD6G5s87QuddfGM9Bfz"
   ],
   "telemetryEndpoints": null,
-  "protocolId": "trecruit",
-  "properties": {
+  "protocolId": "trustrecruit",
+  "properties":{
     "ss58Format": 42,
     "tokenDecimals": 18,
     "tokenSymbol": "TRT"
-  },
+    },
+    
   "forkBlocks": null,
   "badBlocks": null,
   "lightSyncState": null,
@@ -56,7 +57,7 @@
       },
       "transactionPayment": null,
       "octopusAppchain": {
-        "anchorContract": "octopus-anchor.testnet",
+        "anchorContract": "trustrecruit.registry.test_oct.testnet",
         "validators": [
           [
             "5GuiAsvrLkjJvSppNgpjhyHPNGmPNZ8Ca1NabTw44GvzWtvc",
@@ -75,10 +76,10 @@
             10000000000000000000000
           ]
         ],
-        "preminedAmount": 100000000000000000000000000,
+        "preminedAmount": 1024000000000000000000,
         "assetIdByName": [
           [
-            "usdc.testnet",
+            "usdn.testnet",
             0
           ]
         ]
@@ -158,7 +159,7 @@
             "storage": {},
             "code": []
           },
-          "0x31a3d8A5D7Fb2828D520d1a8D382Bc0CA155db98": {
+          "0xcd95b510d2275d632bfa7a09b7fa78dc94a7d193": {
             "nonce": "0x0",
             "balance": "0xffffffffffffffffffffffffffffffff",
             "storage": {},
